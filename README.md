@@ -6,7 +6,7 @@ Variable 'arr' is copy of the array (board). The variable is use by functions in
 
 Functions 'checkRowsColumnsArray' and 'checkNumbers' check the numbers rows and columns ([3, 50]) and integers numbers in range [1, 1000].
 
-Function 'changeItems' find identical number ('findIdenticalNumbers'), then change them on value zero. If there are zeros function 'changePositionItem' drops integers until they hit a non-zero value or the very bottom of the board.
+Function 'changeItems' find identical numbers ('findIdenticalNumbers'), then change them on value zero ('putValueZero'). If there are zeros function 'changePositionItem' drops integers until they hit a non-zero value or the very bottom of the board.
 
 Function 'init calls all functions.
 
