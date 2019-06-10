@@ -81,7 +81,6 @@ const riddleSolver = (board = [
         for (let j = 0; j < arr[i].length; j++) {
           if (typeof arr[i][j] === 'string') {
             arr[i][j] = 0;
-
           }
         }
       }
