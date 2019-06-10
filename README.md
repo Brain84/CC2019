@@ -8,6 +8,6 @@ Functions 'checkRowsColumnsArray' and 'checkNumbers' check the numbers rows and 
 
 Function 'changeItems' find identical numbers if there are three or more of the same integers adjacent vertically or horizontally ('findIdenticalNumbers'), then changes them on value zero. If there are zeros function 'changePositionItem' drops integers until they hit a non-zero value or the very bottom of the board.
 
-Function 'init calls all functions.
+Function 'init' calls all functions.
 
 Finally function 'riddleSolver' a stable board is returned if array in 'board' is correct.
