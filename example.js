@@ -38,6 +38,7 @@ const riddleSolver = (board = [
       for (let j = 0; j < arr.length; j++) {
         if ((arr[i][j] <= 0 || arr[i][j] > 1000) || (typeof arr[i][j] === 'string')) {
           correctNumbers = 0;
+          return;
         } else {
           correctNumbers = 1;
         }
